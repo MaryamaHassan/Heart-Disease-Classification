@@ -14,6 +14,7 @@ The dataset was already well-prepared: there were no missing values or duplicate
 
 To get an initial understanding of the data, I plotted histograms to view feature distributions and a correlation heatmap to examine relationships between variables. These visualisations provided a clear overview before moving on to modelling.
 
+*(Visuals: Heatmap and Histogram plots)*
 <p align="center">
   <img src="https://github.com/user-attachments/assets/52220d69-5afc-42dd-a64d-fa9927e35af8" alt="Heatmap" width="45%" />
   <img src="https://github.com/user-attachments/assets/e1b70392-c398-4625-b584-d47205e81791" alt="Histogram" width="45%" />
@@ -72,6 +73,7 @@ Compared to Logistic Regression, the Random Forest was slightly less accurate ov
 Receiver Operating Characteristic (ROC) curves were plotted for both models. The results showed that both Logistic Regression and Random Forest performed well, but Logistic Regression achieved a higher AUC. This confirmed its stronger generalisation and higher reliability on this dataset.
 
 *(Visuals: ROC curve comparison between LR and RF)*
+<img width="702" height="545" alt="e0d0c8f2-94a2-4ea6-851f-9f5dc9b72f46" src="https://github.com/user-attachments/assets/49023394-57b3-4b6f-bc01-bbdec566fe96"/>
 
 ---
 
